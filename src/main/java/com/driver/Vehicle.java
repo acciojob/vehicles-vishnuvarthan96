@@ -20,6 +20,10 @@ public class Vehicle {
 
     private int currentDirection;
 
+    public String getName() {
+        return name;
+    }
+
     public Vehicle(String name) {
      this.name=name;
      this.currentDirection=0;
